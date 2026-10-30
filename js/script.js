@@ -49,3 +49,14 @@ const show = n => { slides[i].classList.remove("active"); i = (n + slides.length
 document.querySelector(".next").onclick = () => show(i + 1);
 document.querySelector(".prev").onclick = () => show(i - 1);
 setInterval(() => show(i + 1), 5000);
+
+// 3D tilt on product cards
+grid.addEventListener("mousemove", e => {
+  const c = e.target.closest(".card"); if (!c) return;
+  const r = c.getBoundingClientRect();
+  const x = (e.clientX - r.left) / r.width - 0.5, y = (e.clientY - r.top) / r.height - 0.5;
+  c.style.transform = `rotateY(${x * 14}deg) rotateX(${-y * 14}deg) translateY(-8px)`;
+});
+grid.addEventListener("mouseout", e => {
+  const c = e.target.closest(".card"); if (c) c.style.transform = "";
+});
