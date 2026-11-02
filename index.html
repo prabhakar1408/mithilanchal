@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mithilanchal | Hand-Painted Madhubani Sarees, Dupatta & Wall Art</title>
+  <meta name="description" content="Buy authentic hand-painted Madhubani (Mithila) paintings online: sarees, dupattas, topi and wall art, made by artisans of Mithilanchal, Bihar.">
+  <meta name="keywords" content="Madhubani painting buy online, hand painted Madhubani saree, Mithila painting for sale, Madhubani wall art, Madhubani dupatta">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="site-top" id="siteTop">
+    <div class="announce">Har painting haath se bani &nbsp;&bull;&nbsp; Poore India mein shipping &nbsp;&bull;&nbsp; COD available</div>
+    <header class="header">
+      <div class="header-row">
+        <a href="#" class="logo">MITHILANCHAL</a>
+        <div class="icons">
+          <button class="icon-btn" id="searchBtn" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></button>
+          <a class="icon-btn" id="waTop" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z"/><path d="M8.5 8.5c0 3.5 3 6.5 6.5 6.5l1.2-1.5-2-1-1 .8c-1-.4-2-1.4-2.4-2.4l.8-1-1-2z" fill="currentColor" stroke="none"/></svg></a>
+        </div>
+      </div>
+      <nav class="nav-row">
+        <a href="#products" data-filter="all">Sab Kuch</a>
+        <a href="#products" data-filter="saree">Sarees</a>
+        <a href="#products" data-filter="dupatta">Dupatte</a>
+        <a href="#products" data-filter="topi">Topi</a>
+        <a href="#products" data-filter="painting">Wall Paintings</a>
+        <a href="#gallery">Collection</a>
+        <a href="#story">Meri Kahani</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="search-panel" id="searchPanel" hidden>
+        <input id="search" type="search" placeholder="Search sarees, dupatta, paintings...">
+      </div>
+    </header>
+  </div>
+
+  <section class="hero" id="hero">
+    <div id="slides"></div>
+    <button class="arrow prev" aria-label="Previous">&#10094;</button>
+    <button class="arrow next" aria-label="Next">&#10095;</button>
+    <div class="dots" id="dots"></div>
+  </section>
+
+  <section class="container section">
+    <h2 class="title">Categories</h2>
+    <div class="cats" id="cats"></div>
+  </section>
+
+  <section class="container section" id="products">
+    <h2 class="title">Hamare Products</h2>
+    <div class="grid" id="grid"></div>
+    <p class="empty" id="empty" hidden>Koi product nahi mila.</p>
+  </section>
+
+  <section class="container section" id="gallery">
+    <h2 class="title">Mithila Collection</h2>
+    <div class="masonry" id="masonry"></div>
+  </section>
+
+  <section class="story" id="story">
+    <div class="container story-row">
+      <div class="story-img"><img id="storyImg" alt="Madhubani painting"></div>
+      <div>
+        <h2 class="title left">Meri Kahani</h2>
+        <p>Yahan apni kahani likho: aap kaun ho, Mithilanchal ke kis gaon se ho, kitne saal se Madhubani painting bana rahe ho, aur ye kala aapko kaise mili.</p>
+        <p>Har piece haath se banta hai, natural rang aur pen-brush ke kaam se. Ek saree ya painting mein kai din lagte hain.</p>
+        <a class="btn" id="waStory" target="_blank" rel="noopener">Mujhse seedha baat karein</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container section why">
+    <div><b>100% Hand-Painted</b><p>Print nahi, asli haath ka kaam</p></div>
+    <div><b>Pan-India Shipping</b><p>Safe packing ke saath</p></div>
+    <div><b>Custom Orders</b><p>Apni pasand ka design banwayein</p></div>
+    <div><b>Easy Payment</b><p>UPI, Card aur COD</p></div>
+  </section>
+
+  <footer class="footer" id="contact">
+    <div class="container foot-row">
+      <div><h3>Mithilanchal</h3><p>Hand-painted Madhubani art from Bihar. Har piece mein Mithila ki parampara.</p></div>
+      <div><h3>Contact</h3><p>WhatsApp: <a id="waFoot" target="_blank" rel="noopener">Message karein</a></p><p>Email: prabhakarjha1408@gmail.com</p></div>
+      <div><h3>Follow</h3><p><a href="#">Instagram</a> &nbsp; <a href="#">Facebook</a></p></div>
+    </div>
+    <div class="copy">&copy; <span id="yr"></span> Mithilanchal. All rights reserved.</div>
+    <div class="foot-strip"></div>
+  </footer>
+
+  <a class="float-wa" id="waFloat" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z"/><path d="M8.5 8.5c0 3.5 3 6.5 6.5 6.5l1.2-1.5-2-1-1 .8c-1-.4-2-1.4-2.4-2.4l.8-1-1-2z" fill="#fff" stroke="none"/></svg></a>
+
+  <script src="js/gallery.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+﻿window.GALLERY_FILES = ["images/gallery/m1.jpg", "images/gallery/m2.webp", "images/gallery/m3.jfif", "images/gallery/m4.jpg", "images/gallery/m5.webp", "images/gallery/m6.webp", "images/gallery/m7.jfif", "images/gallery/m8.jfif", "images/gallery/m9.jfif", "images/gallery/m10.jpg"];
